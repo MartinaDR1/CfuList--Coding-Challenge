@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Cfu-list</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="text">
+                <h1>Road to <em>Graduation</em></h1>
+            </div>
+            <div class="bottom">
+                Cfu totali:
+                <span class="totalCfu">00</span>
+            </div>
+        </header>
+
+
+        <main>
+            <ul class="exams-list">
+                <!--<li class="exam">
+                 <div class="exam-info">
+                 <h3>Materia</h3>
+                 <p>Prof</p>
+                 </div>
+                 <strong class="exam-cfu">00</strong>
+                 <button class="button" data-index="">❌</button>
+                </li>-->
+            </ul>
+
+            <!-- Form -->
+            <form id="form">
+                <div class="form-fields">
+                    <input type="text" placeholder="Materia" id="name-field" autofocus required>
+                    <input type="text" placeholder="Prof" id="prof-field" required>
+                    <input type="number" min="0" step="1" max="100" placeholder="Cfu" id="cfu-field" required>
+                </div>
+                <button class="form-button">+</button>
+            </form>
+
+
+        </main>
+
+
+
+    </div>
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>
